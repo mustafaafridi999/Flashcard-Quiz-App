@@ -1,0 +1,101 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #edf2ff;
+    color: #222;
+}
+
+header {
+    background: #2859a5;
+    color: white;
+    text-align: center;
+    padding: 22px 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px #00000015;
+    min-height: 230px;
+}
+
+.card h2 {
+    color: #2859a5;
+}
+
+#question {
+    font-size: 22px;
+    margin: 25px 0;
+}
+
+#answer {
+    font-size: 18px;
+    color: #16804a;
+    display: none;
+    margin: 20px 0;
+}
+
+button {
+    background: #2859a5;
+    color: white;
+    border: none;
+    padding: 12px 17px;
+    margin: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #174078;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 7px 0;
+    border: 1px solid #bbb;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.add-section {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 15px auto;
+    }
+
+    .card {
+        padding: 20px 12px;
+    }
+
+    button {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+      }
